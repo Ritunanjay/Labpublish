@@ -1,0 +1,33 @@
+/*
+Copyright (c) 2003-2012, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+*/
+
+body {
+    /* Font */
+    font-family: Arial, Verdana, sans-serif;
+
+    font-size: 12px;
+    /* Text color */
+    color: #222;
+    /* Remove the background color to make it transparent */
+    background-color: #fff;
+
+  
+}
+
+ol,ul,dl
+{
+	/* IE7: reset rtl list margin. (#7334) */
+	*margin-right:0px;
+	/* preserved spaces for list items with text direction other than the list. (#6249,#8049)*/
+    padding:0 40px;
+}
+@font-face {
+    font-family: 'KrutiDev010Regular';
+    src: url('krutidev_010/k010-webfont.eot');
+    src: url('krutidev_010/k010-webfont.eot?#iefix') format('embedded-opentype'), url('krutidev_010/k010-webfont.woff') format('woff'), url('krutidev_010/k010-webfont.ttf') format('truetype'), url('krutidev_010/k010-webfont.svg#KrutiDev010Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
